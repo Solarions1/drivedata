@@ -21,7 +21,7 @@
 <body>
 	<div class="topnav" id="myTopnav">
 	  <a href="#home" class="active">Home</a>
-	  <a href="./directory/directorypage.html">Directorio</a>
+	  <a href="./directory/publicdir.html">Directorio</a>
 	  <a href="#contact">Contact</a>
 	  <a href="#about">About</a>
 	  <a href="javascript:void(0);" class="icon" onclick="dode()">
@@ -30,20 +30,31 @@
 	</div>
 
 	<h1 id="toph1tap">Bienvnido a QDrive</h1>
-	<h3 id="h3info">QDrive es un sistema estatico de almacenamiento de archivos en la nub, dedicado unica y exclusivamente a mantener archivos personales en la nube para uso interno.</h3>
-	<h3>Esta plataforma esta diseñada para almacenar documentación, videos, audios e información personal, utilizada como base en la nube.</h3>
+	<h3 id="h3info">QDrive es un sistema estatico de almacenamiento de archivos en la nube, dedicado unica y exclusivamente a mantener archivos personales en la nube para uso interno.</h3>
+	<h3 id="h3info">Esta plataforma esta diseñada para almacenar documentación, videos, audios e información personal, utilizada como base en la nube.</h3>
 	
 	<h3 id="searchh3">En la parte inferior por favor ingrese el codigo (en numeros) del archivo a buscar, también puede dirigirse al directorio principal <a id="principaldir" href="#">aquí</a>.</h3>
+
+	
 	<div id="sea">
-		<input id ="data1" type="text" name="Ingrese el codigo del archivo" disabled>
+		<input id ="data1" type="text" name="Ingrese el codigo del archivo">
 		<button onclick="sendbus()">Buscar</button><button id="clearcon" onclick="cleardata()">Borrar datos</button>
+
+	</div>
+	<div id="advertencia">
+			
+		<h3 id="adv">Atención, actualmente el fujo de datos de archivos no esta disponible para el publico general.<br>
+		La carga de archivos multimedia al sitio web no está habilitada actualmente, el sistema de carga de archivos será activada en los proximos días. 
+		</h3>
 
 	</div>
 	<div id="result-div">
 		<p id="nameresult"></p>
 		<p id="coeresult"></p>
 		<p id="typeresult"></p>
-		<p id="linkresult"></p>
+		<a id="linkresult"></a>
+		<br>
+		<button style="background: none;backface-visibility: hidden ;border: none;color:green; " onclick="go()" id="gogolink"></button>
 	</div>
 </body>
 </html>

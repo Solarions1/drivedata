@@ -1,3 +1,10 @@
+body{
+  padding-left: 1%;
+  background: url("../assets/img/IMG_3901.JPG");
+  font-family: sans-serif;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -56,19 +63,11 @@
   }
 }
 
-#data1{
-  cursor: not-allowed;
-
-}
 
 #contenido{
   padding-left: 1.1%;
 }
-body{
-  padding-left: 1%;
-  background: url("../assets/img/IMG_3901.JPG");
-  font-family: sans-serif;
-}
+
 
 #linkdata{
   text-decoration: none;
@@ -81,4 +80,20 @@ body{
 
 footer{
   position: relative;
+}
+
+#advertencia {
+  text-align: center;
+  background-color: whitesmoke;
+  color:  black;
+}
+
+#h3info{
+  font-size: 15px;
+}
+#searchh3{
+  font-size: 15px;
+}
+#result-div{
+  padding-right: 30%;
 }
