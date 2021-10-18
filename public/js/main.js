@@ -52,6 +52,7 @@ function buscarname(){
   const inputbu = document.getElementById('buscarname').value;
 
   if (inputbu == "Wayward Pinnes"){
-    window.location.href=""
+    window.location.href="https://solarions1.github.io/drivedata/public/pages/directory/directorypage.html#waywardp";
+    console.log("Enviando a" + inputbu);
   }
 }

@@ -67,7 +67,7 @@
 body{
   padding-left: 1%;
   background: url("../assets/img/IMG_3901.JPG");
-
+  font-family: sans-serif;
 }
 
 #linkdata{
@@ -81,5 +81,4 @@ body{
 
 footer{
   position: relative;
-  text-align: center;
 }
