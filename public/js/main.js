@@ -29,7 +29,7 @@ function sendbus(){
     document.getElementById('nameresult').innerHTML="Nombre: Wayward Pinnes";
     document.getElementById('coeresult').innerHTML="Codigo: 1130";
     document.getElementById('typeresult').innerHTML="Tipo: Video MP4 WEBRip";
-    document.getElementById('linkresult').innerHTML="https://solarions1.github.io/drivedata/public/pages/directory/waywardpinnes.html";
+    document.getElementById('linkresult').innerHTML="www.solarions1.github.io/drivedata/public/pages/directory/waywardpinnes.html";
     document.getElementById('result-div').style.background="whitesmoke";
     document.getElementById('gogolink').innerHTML="Ir al archivo"
   }else{
