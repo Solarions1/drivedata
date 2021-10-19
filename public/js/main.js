@@ -26,12 +26,13 @@ function sendbus(){
 
   if(datainput == arch1){
     console.log("Mostrando archivo");
-    document.getElementById('nameresult').innerHTML="Nombre: Wayward Pinnes";
-    document.getElementById('coeresult').innerHTML="Codigo: 1130";
-    document.getElementById('typeresult').innerHTML="Tipo: Video MP4 WEBRip";
-    document.getElementById('linkresult').innerHTML="www.solarions1.github.io/drivedata/public/pages/directory/waywardpinnes.html";
+    document.getElementById('nameresult').innerHTML="Name: Wayward Pinnes";
+    document.getElementById('coeresult').innerHTML="Code: 1130";
+    document.getElementById('typeresult').innerHTML="Type: Video MP4 WEBRip";
+   var dataloc = document.getElementById('linkresult').innerHTML="www.solarions1.github.io/drivedata/public/pages/directory/waywardpinnes.html";
     document.getElementById('result-div').style.background="whitesmoke";
-    document.getElementById('gogolink').innerHTML="Ir al archivo"
+    
+
   }else{
     console.log("null")
   }
@@ -44,7 +45,7 @@ function cleardata(){
     document.getElementById('typeresult').innerHTML="";
     document.getElementById('linkresult').innerHTML="";
     document.getElementById('result-div').style.background="none";
-    document.getElementById('gogolink').innerHTML="Ir al archivo"
+    document.getElementById('gogolink').innerHTML="Go to link"
 }
 
 
@@ -59,10 +60,4 @@ function buscarname(){
     window.location.href="https://solarions1.github.io/drivedata/public/pages/waywardpinnes.html";
     console.log("Enviando a" + inputbu);
   }
-}
-
-function go(){
-  var enl = document.getElementById('linkresult').value;
-
-  window.location.href=enl;
 }
