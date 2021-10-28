@@ -97,3 +97,11 @@ footer{
 #result-div{
   padding-right: 30%;
 }
+video{
+width:100%;
+max-width:600px;
+}
+/* Y así se adaptaría al 100% del ancho de página (para webs móviles sería útil) */
+video{
+width:100%;
+}
