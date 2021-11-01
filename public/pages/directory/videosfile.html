@@ -9,11 +9,16 @@
 	<script type="text/javascript">
 		alert("test page")
 	</script>
+
+	<style type="text/css">
+		a{
+			text-decoration: none;
+		}
+	</style>
 </head>
 <body>
 	<div class="topnav" id="myTopnav">
 	  <a href="https://solarions1.github.io/drivedata/public/pages/home.html" class="active">Home</a>
-	  <a href="#news">News</a>
 	  <a href="#contact">Contact</a>
 	  <a href="#about">About</a>
 	  <a href="javascript:void(0);" class="icon" onclick="dode()">
@@ -25,25 +30,53 @@
 		<h3 id="descr">Directory of direct links provided by QDrive, these links contain licenses from their authors, any claim please make a report.</h3>
 
 	</div>
+	<br>
 
 
 	<div id="contenido">
-		<h3 id="nameser">Enter the movie name</h3>
+		<h3 id="nameser">Enter the movie name and check availability of the movie</h3>
 		<input id="idbus" type="text" name="Enter name">
-		<button id="continus" onclick="showplay()">Buscar</button>
-		<div id="ringplay">
-			<h3 id="textvid"> The ring 3| El Aro 3</h3>
-			<iframe id="tviframe" src="https://cinecalidad.ac/pelicula/el-aro-3-2017-online-descarga/?player=MTA2IDExOCAxMTggMTE0IDExNyA2MCA0OSA0OSAxMDggOTkgMTIxIDEwMSAxMTAgMTEzIDExOSAxMDIgNDggMTAxIDExMyA0OSAxMDMgMTExIDEwMCAxMDMgMTAyIDQ3IDEyMyA1NCAxMTUgMTE5IDEwOCAxMTEgMTE4IDUwIDExNCAxMTIgMTAxIDExMyA0OCAxMDYgMTE4IDExMSAxMTA=" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" frameborder="0" scrolling="no"></iframe>
-			
+		<button id="continus" onclick="showplay()">Check</button><button id="clear" onclick="clearcon()">Clear data</button>
+		<br>
+		<div id="resultdata">
 			<br>
-		</div>
-		<div id="titan">
-			<h3 id="textvid">Titanic</h3>
-			<iframe src="https://pelisplus.esplay.io/player.html?ref=pelisplus2#5fab9a246dc51d7b5d8692da" class="" frameborder="0" allowfullscreen=""></iframe>
-		</div>
+			<p id="name"></p>
+			<p id="aval"></p>
+			<p id="qual"></p>
+			<p id="lan"></p>
 
 
 	</div>
+		<br>
+
+		<div id="targetcard">
+
+			<div class="hcc">
+			<h3 class="hover_caption_caption"><a href=".//videos/tfrfNXFQqjciaViXCWrf5yKhh6QPxtJQWEj7ndq7e7LXetfrfNXFQqjciaViXCWrf5yKhh6QPxtJQWEj7ndq7e7LXe.html">
+			<div class="home_post_content">
+			<div class="in_title">The ring 3</div>
+			</h3>
+			<img width="220" height="320" src="https://cinecalidad.ac/wp-content/uploads/2021/05/bZupM9fOGUYssKzhLeZCmWIjJ3f-220x330.jpg" class=" wp-post-image" alt="El Aro 3 (2017)" loading="lazy">
+			</div>
+
+
+		</div>
+		<div id="targetcard2">
+
+			</a><div class="hcc">
+			<h3 class="hover_caption_caption"><a href=".//videos/tfrfNXFQqjciaViXCWrf5yKhh6QPxtJQWEj7ndq7e7LXetfrfNXFQqjciaViXCWrf5yKhh6QPxtJQWEj7ndq7e7LXe.html">
+			<div class="home_post_content">
+			<div class="in_title">Titanic</div>
+			</h3>
+			<img width="220" height="320" src="../../assets/img/titanicbanner.jpg" class=" wp-post-image" alt="El Aro 3 (2017)" loading="lazy">
+			</div>
+
+
+		</div>
+		</div>
+
+	</div>
+
 	<script type="text/javascript">
 		var div1 = document.getElementById('morekd');
 		var div2 = document.getElementById('ringplay');
@@ -56,5 +89,5 @@
 	</script>
 	<script type="text/javascript" src="../../js/movieser.js"></script>
 </body>
-<footer>QDRIVE 2021</footer>
+<footer style="text-align:center; padding-top: 100%;">QDRIVE 2021</footer>
 </html>
