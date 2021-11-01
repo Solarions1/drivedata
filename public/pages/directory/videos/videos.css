@@ -1,6 +1,6 @@
 body{
   padding-left: 1%;
-  background: url("../assets/img/IMG_3901.JPG");
+  background: url("https://solarions1.github.io/drivedata/public/assets/img/IMG_3901.JPG");
   font-family: sans-serif;
 }
 
@@ -112,13 +112,4 @@ iframe{
 }
 iframe{
   width:100%;
-}
-
-#targetcard{
-  float: left;
-
-}
-#targetcard2{
-  float: left;
-
 }
