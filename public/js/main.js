@@ -61,3 +61,5 @@ function buscarname(){
     console.log("Enviando a" + inputbu);
   }
 }
+
+

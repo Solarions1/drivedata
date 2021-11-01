@@ -25,25 +25,36 @@
 		<h3 id="descr">Directory of direct links provided by QDrive, these links contain licenses from their authors, any claim please make a report.</h3>
 
 	</div>
-	<div id="busqueda">
-		<p id="buscarname">Enter the name </p>
-		<input id="busc" name="Ingrese el nombre de la peicula o serie"><button id="buttondes" onclick="buscarname()">Go</button>
-	</div>
+
 
 	<div id="contenido">
-		<h3 id="textvid">KDA -More , League of legends</h3>
-		<video src="../../assets/video/kdamore.mp4" controls preload></video>
-		<br>
-		<h3 id="textvid"> The ring 3| El Aro 3</h3>
-		<iframe id="tviframe" src="https://cinecalidad.ac/pelicula/el-aro-3-2017-online-descarga/?player=MTA2IDExOCAxMTggMTE0IDExNyA2MCA0OSA0OSAxMDggOTkgMTIxIDEwMSAxMTAgMTEzIDExOSAxMDIgNDggMTAxIDExMyA0OSAxMDMgMTExIDEwMCAxMDMgMTAyIDQ3IDEyMyA1NCAxMTUgMTE5IDEwOCAxMTEgMTE4IDUwIDExNCAxMTIgMTAxIDExMyA0OCAxMDYgMTE4IDExMSAxMTA=" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" frameborder="0" scrolling="no"></iframe>
-		<br>
-		<h3 id="textvid">Titanic</h3>
-		<iframe src="https://pelisplus.esplay.io/player.html?ref=pelisplus2#5fab9a246dc51d7b5d8692da" class="" frameborder="0" allowfullscreen=""></iframe>
-
+		<h3 id="nameser">Enter the movie name</h3>
+		<input id="idbus" type="text" name="Enter name">
+		<button id="continus" onclick="showplay()">Buscar</button>
+		<div id="ringplay">
+			<h3 id="textvid"> The ring 3| El Aro 3</h3>
+			<iframe id="tviframe" src="https://cinecalidad.ac/pelicula/el-aro-3-2017-online-descarga/?player=MTA2IDExOCAxMTggMTE0IDExNyA2MCA0OSA0OSAxMDggOTkgMTIxIDEwMSAxMTAgMTEzIDExOSAxMDIgNDggMTAxIDExMyA0OSAxMDMgMTExIDEwMCAxMDMgMTAyIDQ3IDEyMyA1NCAxMTUgMTE5IDEwOCAxMTEgMTE4IDUwIDExNCAxMTIgMTAxIDExMyA0OCAxMDYgMTE4IDExMSAxMTA=" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" frameborder="0" scrolling="no"></iframe>
+			
+			<br>
+		</div>
+		<div id="titan">
+			<h3 id="textvid">Titanic</h3>
+			<iframe src="https://pelisplus.esplay.io/player.html?ref=pelisplus2#5fab9a246dc51d7b5d8692da" class="" frameborder="0" allowfullscreen=""></iframe>
+		</div>
 
 
 	</div>
-
+	<script type="text/javascript">
+		var div1 = document.getElementById('morekd');
+		var div2 = document.getElementById('ringplay');
+		var div3 = document.getElementById('titan');
+		if( div1.style.display === "block" | div2.style.display === "block" | div3.style.display === "block"){
+			div1.style.display = "none";
+			div2.style.display ="none";
+			div3.style.display = "none";
+		}
+	</script>
+	<script type="text/javascript" src="../../js/movieser.js"></script>
 </body>
 <footer>QDRIVE 2021</footer>
 </html>
