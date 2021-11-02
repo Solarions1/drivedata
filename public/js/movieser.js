@@ -17,7 +17,7 @@ function showplay(){
   }
   if( x == data2 | data2p2 |data2p3 | data2p4 | data2p5){
     document.getElementById('name').innerHTML="Name: The Ring";
-    document.getElementById('aval').innerHTML="Available: True";
+    document.getElementById('aval').innerHTML="Available: False - in maintenance";
     document.getElementById('qual').innerHTML="HD: True 1080p";
     document.getElementById('lan').innerHTML="Lang: ESP LAA | EN EUA";
   }

@@ -1,6 +1,8 @@
 body{
   padding-left: 1%;
   background: url("../assets/img/IMG_3901.JPG");
+  background-position: all;
+  background-repeat: no-repeat;
   font-family: sans-serif;
 }
 

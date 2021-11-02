@@ -68,3 +68,6 @@ function titanic(){
 }
 
 
+function mainten(){
+  window.location.href="https://solarions1.github.io/error/index.html";
+}
