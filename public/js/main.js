@@ -63,3 +63,8 @@ function buscarname(){
 }
 
 
+function titanic(){
+  window.location.href="https://solarions1.github.iodrivedata/public/pages/directory/videos/tfrfNXFQqjciaViXCWrf5yKhh6QPxtJQWEj7ndq7e7LXetfrfNXFQqjciaViXCWrf5yKhh6QPxtJQWEj7ndq7e7LXe.html"
+}
+
+
