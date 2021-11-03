@@ -1,11 +1,13 @@
 body{
   padding-left: 1%;
-  background: url("../assets/img/IMG_3901.JPG");
-  background-position: all;
-  background-repeat: no-repeat;
+  background: url("../assets/img/5665907.jpg");
+  color: black;
   font-family: sans-serif;
-}
 
+}
+#toph1tap{
+  color: black;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -77,7 +79,6 @@ body{
 }
 #linkdata:hover{
   color: green;
-  cursor: progress;
 }
 
 footer{
@@ -86,8 +87,7 @@ footer{
 
 #advertencia {
   text-align: center;
-  background-color: whitesmoke;
-  color:  black;
+  color:  red;
 }
 
 #h3info{
